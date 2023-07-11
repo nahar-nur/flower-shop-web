@@ -121,3 +121,19 @@ background: rgba(71, 125, 17, 0.15);
 .hotdeal-pic{
     width: 320px;
 }
+/* style of instagram section */
+.instagram{
+    margin: auto;
+}
+.insta-content{
+    text-align: center;
+}
+.insta-pic{
+    width: 200px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+} 
+    
+/* Latest deal section */
+    
