@@ -22,6 +22,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+    background-color:papayawhip;
+    
 }
 nav ul{
     display: flex;
@@ -136,4 +138,61 @@ background: rgba(71, 125, 17, 0.15);
 } 
     
 /* Latest deal section */
+.latest-deal{
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: url('../images/Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    width: 1440px;
+    height: 440px;
+    align-items: center;
+    
+}
+.section-title{
+    margin-top: 120px;
+    text-align: center;
+}
+.section-description{
+    margin-bottom: 120px;
+}
+.email-box{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+}
+/* footer section styles */
+.end-section{
+    background: #111010;
+    width: 1920px;
+    height: 450px;
+    text-align: center;
+    margin-top: 0;
+}
+ .footer-title{
+    margin-top: 150px;
+    padding: 100px 700px 00px 25px;
+ }
+       
+.footer-description{
+    display: flex;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    justify-content: center;
+    
+ }
+    
+    
+}
+}
+.footer-content{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+     font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+
+}
     
