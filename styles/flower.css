@@ -64,6 +64,10 @@ nav a{
     margin-top: 20px;
 }
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* Style of featured flower section */
 .section-title{
     color: #272727;
@@ -83,10 +87,7 @@ nav a{
     
     display:inline-flex;
     justify-content: baseline;
-    margin-left: 280px;
-    margin-right: 220px;
-    margin-top: 20px;
-    margin-bottom: 120px;
+    
     gap: 50px;
 }
 .pic-6{
@@ -103,4 +104,20 @@ background: rgba(5, 151, 160, 0.15);
 .pic-7{
     border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
+}
+/* styles of hot deal section */
+.hot-deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 150px;
+    text-align: center;
+    padding: 100px 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.hotdeal-pic{
+    width: 320px;
 }
